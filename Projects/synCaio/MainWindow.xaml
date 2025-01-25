@@ -1,0 +1,18 @@
+﻿<Window x:Class="synCaio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:synCaio"
+        mc:Ignorable="d"
+        Title="Akix sincronizzazione" Height="262.332" Width="743.498">
+    <Grid Margin="0,0,3.8,-3.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="avvia sincronizzazione" HorizontalAlignment="Left" Margin="268,24,0,0" VerticalAlignment="Top" Width="437" Height="72" Click="Button_Click" FontSize="36"/>
+        <TextBox x:Name="textBox1" Margin="10,120,9.8,7" TextWrapping="Wrap" FontSize="36" TextAlignment="Center"/>
+        <Image Margin="10,10,0,0" Source="logoAkix_mini.jpg" Stretch="Fill" Height="86" VerticalAlignment="Top" HorizontalAlignment="Left" Width="168"/>
+    </Grid>
+</Window>
